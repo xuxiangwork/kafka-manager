@@ -4,7 +4,8 @@
 Kafka Manager
 =============
 
-A tool for managing [Apache Kafka](http://kafka.apache.org).
+A tool for managing [Apache Kafka](http://kafka.apache.org).  
+Document of the tool [Detailed analysis of the use of kafka manager](https://www.jianshu.com/p/6a592d558812) (chinese language).
 
 It supports the following :
 
