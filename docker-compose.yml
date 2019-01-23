@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  kafka-manager:
+    container_name: kafka-manager
+    image: xuxiangwork/kafka-manager
+    ports:
+      - "9000:9000"
+    environment:
+      ZK_HOSTS: 10.229.26.58:2181
+      APPLICATION_SECRET: letmein
+      KAFKA_MANAGER_AUTH_ENABLED: "true"
+      KAFKA_MANAGER_USERNAME: admin
+      KAFKA_MANAGER_PASSWORD: password
+    restart: always
