@@ -1,3 +1,6 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/xuxiangwork/kafka-manager.svg)](https://hub.docker.com/r/xuxiangwork/kafka-manager/)
+[![Docker Stars](https://img.shields.io/docker/stars/xuxiangwork/kafka-manager.svg)](https://hub.docker.com/r/xuxiangwork/kafka-manager/)
+
 Kafka Manager
 =============
 

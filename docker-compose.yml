@@ -6,7 +6,7 @@ services:
     ports:
       - "9000:9000"
     environment:
-      ZK_HOSTS: 10.229.26.58:2181
+      ZK_HOSTS: your_zookeeper_host:port(like 192.168.10.11:2181)
       APPLICATION_SECRET: letmein
       KAFKA_MANAGER_AUTH_ENABLED: "true"
       KAFKA_MANAGER_USERNAME: admin
